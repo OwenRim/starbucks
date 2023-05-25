@@ -409,6 +409,7 @@ header .badges .badge {
   position: relative;
   overflow: hidden;
   transition: height .4s;
+  overflow: hidden;
 }
 .notice .promotion.hide {
   height: 0;

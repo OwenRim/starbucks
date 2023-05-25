@@ -105,4 +105,19 @@ new Swiper('.promotion .swiper-container', {
     prevEl: '.promotion .swiper-prev', // 이전 버튼 선택자
     nextEl: '.promotion .swiper-next' // 다음 버튼 선택자
   }
-})
+});
+
+const promotionEl = document.querySelector('.promotion');
+const promotionToggleBtn = document.querySelector('.toggle-promotion');
+let isHidePromotion = false;
+promotionToggleBtn.addEventListener('click', function () {
+  //promotion을 보여주거나 숨기는기능
+  isHidePromotion = !isHidePromotion
+  if (isHidePromotion) {
+    // 숨김처리!
+    promotionEl.classList.add('hide');
+  } else {
+    // 보임 처리!
+    promotionEl.classList.remove('hide');
+  }
+});
