@@ -37,15 +37,15 @@
 
   <link rel="stylesheet" href="./css/main.css" />
 
-  <!--GSAP & ScrollToPlugin-->
+  <!-- GSAP & ScrollToPlugin 스크롤시 벳지나 최상단으로 올라가는버튼 보여주거나 사라디게하는효과를 지원 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
-  <!--Swiper-->
+  <!-- Swiper 프로모션이나 공지사항에서 그림이 스와이프되는효과 공지사항이 번갈아가며 나오는효과 등을 지원 -->
   <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
-  <!--ScrollMagic-->
+  <!-- ScrollMagic 스크롤하면서 보여지는 Section을 감시 해야함 스크롤하면서 Section의 80%이상 보여지면 사진이든 영상이든 보여지기시작함. -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
-  <!--Lodash-->
+  <!-- Lodash  array, collection, date 등 데이터의 필수적인 구조를 쉽게 다룰 수 있게끔 하는데에 사용 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
 
   <script defer src="./js/youtube.js"></script>
@@ -623,6 +623,60 @@
 
     </div>
   </section>
+
+  <!-- AWARDS -->
+  <section class="awards">
+    <div class="inner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/awards_slide1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/awards_slide2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/awards_slide3.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/awards_slide4.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/awards_slide5.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/awards_slide6.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/awards_slide7.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/awards_slide8.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/awards_slide9.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/awards_slide10.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-prev">
+        <div class="material-icons">arrow_back</div>
+      </div>
+      <div class="swiper-next">
+        <div class="material-icons">arrow_forward</div>
+      </div>
+    </div>
+  </section>
+  
+
+
+    <!--TO TOP BUTTON-->
+    <div id="to-top">
+      <div class="material-icons">arrow_upward</div>
+    </div>
 
 </body>
 </html>
